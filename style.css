@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+  }
+  body{
+    height: 100vh;
+    background-image: url(imagem/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+  
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  main{
+    background-color: rgba(255, 0, 0, 0.822);
+    margin: 10px;
+  }
+  
+  nav{
+    background-image: url(imagem/sinal.jpg);
+    padding: 50px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px;
+    border-radius: 20px 20px 20px;
+    text-align: center;
+  }
+  
+  nav > a{
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.8s;
+    
+  }
+  
+  nav > :hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+
+  
+  h1.negao{
+    color: red;
+    font-size: 18pt;
+    width: 130px;
+    border-radius: 10px 12px ;
+     
+  }
+
+  .h1-bloods{
+    box-shadow: 3px 3px 3px;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 130px;
+    height: 30px;
+  }
+  
+  .h2-bloods{
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+  }
+
+
+  p{
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  .div-p{
+    
+    border-radius: 15px 15px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+  div.p2 > h2{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+
+
+  }
+
+  div.p2 > p{
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  div.p3 > h2{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 290px;
+    height: 30px;
+  }
+
+  div.p3 > p{
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+
+
+
+  
+
+  
